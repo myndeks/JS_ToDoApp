@@ -1,0 +1,103 @@
+body {
+    background-color: lightgreen;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    padding: 15px 30px;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+input {
+    width: 400px;
+    padding: 15px 30px;
+    border: inherit;
+}
+
+input:hover {
+    background-color: whitesmoke;
+}
+
+.btn-t {
+    background-color: #fff;
+    border: inherit;
+    padding: 15px 51px;
+}
+
+.btn-t:hover {
+    background-color: whitesmoke;
+}
+
+ol {
+    background-color: whitesmoke;
+    padding: 15px 30px;
+    margin-top: 4px;
+}
+
+
+
+
+
+li > .up, .down, .remove {
+    padding: 3px;
+    background-color: lightcoral;
+    border: inherit;
+    color: white;
+    margin: 3px;
+    float: right;
+}
+
+.up:hover, .down:hover, .remove:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+li  {
+    margin-top: 10px;
+    text-align: left;
+}
+.up {
+    background-image: url('../img/icons/up-icon.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.down {
+    background-image: url('../img/icons/down-icon.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.remove {
+    background-image: url('../img/icons/delete-icon.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+button {
+    padding: 2px;
+    background-color: lightcoral;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: coral; 
+}
